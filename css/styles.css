@@ -1,0 +1,150 @@
+*{
+  color:#ecf0f1;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+body{
+  background-image: url('http://cdn.leagueoflegends.com/game-info/1.1.9/images/champion/backdrop/bg-twitch.jpg');
+  background-position:fill;
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-color:black;
+}
+
+#newComp{
+  position:aboslute;
+  top:0px;
+  left:100%;
+  width:200px;
+  height:50px;
+  font-size:18px;
+  border:none;
+  border-radius:3px;
+  background-color:rgb(39, 174, 96);
+}
+
+.statContainer{
+  width:500px;
+  height:auto;
+  opacity:0.98;
+  background-color:#1d1d1d;
+  display:inline-block;
+  border-radius:10px;
+  margin-top:100px;
+}
+
+h2{
+  width:400px;
+  margin:auto;
+  text-align:center;
+  padding:30px 0px;
+  border-bottom:1px solid #1abc9c;
+}
+
+
+.stat{
+  background-color:#16a085;
+  width:75%;
+  padding:10px;
+  border-radius:5px;
+  float:right;
+  margin-right:85px;
+  line-height:50px;
+  opacity: 1.0;
+}
+
+#myBtn{
+  padding:10px;
+  border:none;
+  border-radius: 5px;
+  font-size:22px;
+  width:100%;
+  margin:0px;
+  background:#2ecc71;
+}
+
+.txtBox{
+  font-size:24px;
+  width:48%;
+  color:#1d1d1d;
+  padding:5px;
+  border-radius:3px;
+  border:none;
+}
+
+#inputPan{
+  position:absolute;
+  width:100%;
+  height:100%;
+  right:5px;
+  top:0px;
+  background-color:#1d1d1d;
+  padding:10px;
+  z-index:9999;
+  
+  -webkit-transition: width 250ms ease-in-out, opacity 350ms ease-in-out;
+  -moz-transition: width 250ms ease-in-out, opacity 350ms ease-in-out;
+  -o-transition: width 250ms ease-in-out, opacity 350ms ease-in-out;
+  transition: width 250ms ease-in-out, opacity 350ms ease-in-out;
+}
+
+#inputContent{
+  width:600px;
+  margin:auto;
+  margin-top:15%;
+}
+
+#inputContent txtBox{
+  width:550px;
+  margin:auto;
+  margin-top:15%;
+}
+
+#inputContent h3{
+  width:600px;
+  text-align:center;
+  margin:10px 0px;
+  background-color:#1d1d1d;
+  padding:0px;
+}
+
+#inputContent h2{
+  width:500px;
+  text-align:center;
+  margin:auto;
+  border:none;
+  padding:0px;
+}
+
+
+
+h3{
+  margin-left:25px;
+  margin-top:50px;
+  padding:15px;
+  width:85%;
+  background-color:#282828;
+  border-radius:5px;
+  text-align:center;
+  opacity: 1.0;
+}
+
+
+p{
+  padding:5px;
+  margin:auto;
+  margin-bottom:2%;
+  text-align:right;
+  background-color:#181818;
+  border-radius:3px;
+  width:90%;
+  opacity: 1.0;
+  border: 3px solid #292929;
+}
+
+#summonerCont{
+  width:1100px;
+  margin:auto;
+  opacity: 1.0;
+}
+

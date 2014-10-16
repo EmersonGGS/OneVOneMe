@@ -1,0 +1,50 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>One v One Me!</title>
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="javascript/script.js"></script>
+</head>
+
+<body>
+  <input id="newComp" type="button" value="New Comparison" onclick="expCompWindow()">    
+  <div id="inputPan">
+    <div id="inputContent">
+      <h2> Hey There!</h2><br><h3> Go ahead and punch in a couple summoner names to get your ranked stats.</h3>
+      <input id="sum1TxtBox" type="text" class="txtBox" placeholder="First summoner name">
+      <input id="sum2TxtBox" type="text" class="txtBox"placeholder="Second summoner name">
+      <br>
+      <input id="myBtn" type="button" value="Compare" onclick="getStats()">
+    </div>
+  </div>
+
+  <div id="summonerCont">
+    <div class="statContainer" id="summoner1">
+      <h2 id="sumName1">Enter Summoner Names</h2>
+      <h3 id="CarryHead1">Carry</h3>
+      <div id="Carry1"></div>
+      <div id="Carry1"></div>
+      <h3 id="TopHead1">Top / Mid</h3>
+      <div id="Top1"></div>
+      <h3 id="JungleHead1">Jungle</h3>
+      <div id="Jungle1"></div>
+      <h3 id="SupportHead1">Support</h3>
+      <div id="Support1"></div>
+    </div>
+
+    <div class="statContainer" id="summoner2">
+      <h2 id="sumName2">Enter Summoner Names</h2>
+      <h3 id="CarryHead2">Carry</h3>
+      <div id="Carry2"></div>
+      <h3 id="TopHead2">Top / Mid</h3>
+      <div id="Top2"></div>
+      <h3 id="JungleHead2">Jungle</h3>
+      <div id="Jungle2"></div>
+      <h3 id="SupportHead2">Support</h3>
+      <div id="Support2"></div>
+    </div>
+  </div>
+</body>
+</html>
